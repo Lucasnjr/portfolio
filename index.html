@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifólio - Lucas Neumann Jr</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+
+  <header>
+    <nav>
+      <a class="logo" href="/"><h1>LNJ</h1></a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#home">INÍCIO</a></li>
+        <li><a class="nav-link" href="#habilidades">HABILIDADES</a></li>
+        <li><a class="nav-link" href="#projetos">PROJETOS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="home" id="home">
+    <div class="container-container-home">
+      <div class="foto">
+        <img class="perfil" src="imagens/minhafoto.jpg" alt="Foto de perfil de Lucas Neumann Jr">
+      </div>
+      <div class="texto-home">
+        <p>
+          Olá! Me chamo Lucas, sou estudante de Engenharia de Software na UniLaSalle e tenho um grande interesse pelo desenvolvimento backend. 
+          Estou sempre buscando aprender novas tecnologias e colocar em prática o que estudo, tanto na faculdade quanto em projetos pessoais. 
+          Atualmente, meu foco de estudos está voltado para Java, linguagem que venho aprofundando através de projetos e práticas acadêmicas. 
+          Também tenho conhecimento em Python, além de HTML e CSS para estruturação e estilização de interfaces web.
+        </p>
+        <div class="socials-container">
+          <a style="--accent-color:#0A66C2;" target="_blank" href="https://www.linkedin.com/in/lucas-neumann-j%C3%BAnior-04402935b/">
+            <img src="imagens/linkedin-svgrepo-com.svg" alt="LinkedIn de Lucas">
+          </a>
+          <a style="--accent-color:#000000;" target="_blank" href="https://github.com/Lucasnjr">
+            <img src="imagens/github-svgrepo-com (1).svg" alt="GitHub de Lucas">
+          </a>
+          <a style="--accent-color:#5865F2;" target="_blank" href="https://discord.gg/fM25PykEJa">
+            <img src="imagens/discord-svgrepo-com.svg" alt="Servidor do Discord de Lucas">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="habilidades" id="habilidades">
+    <h3 class="titulo">HABILIDADES</h3>
+    <div class="container-container-habilidades">
+      <div class="container-habilidades">
+        <img src="imagens/java-svg.svg" alt="Logo Java">
+        <p>Java</p>
+      </div>
+      <div class="container-habilidades">
+        <img src="imagens/python-svg.svg" alt="Logo Python">
+        <p>Python</p>
+      </div>
+      <div class="container-habilidades">
+        <img src="imagens/html-5-svg.svg" alt="Logo HTML5">
+        <p>HTML5</p>
+      </div>
+      <div class="container-habilidades">
+        <img src="imagens/css-3-svg.svg" alt="Logo CSS3">
+        <p>CSS</p>
+      </div>
+      <div class="container-habilidades">
+        <img style="height: 110px; width: 420px;" src="imagens/pacote-office.png" alt="Logo Pacote Office">
+        <p style="margin-top: 60px;">Pacote Office</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="projetos" id="projetos">
+    <h3 class="titulo">PROJETOS</h3>
+    <div class="container-container-projetos">
+      <a target="_blank" href="https://github.com/Lucasnjr/Calculadora">
+        <div class="card">
+          <img loading="lazy" src="imagens/calculadora.png" alt="Projeto Calculadora">
+          <div class="card__content">
+            <h3 class="card__title">Calculadora</h3>
+            <p class="card__description">
+              Uma calculadora básica feita em Python usando Tkinter para a interface gráfica.
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a target="_blank" href="https://lucasnjr.github.io/Cotacao-Moedas/">
+        <div class="card">
+          <img loading="lazy" src="imagens/cotacao-projeto.png" alt="Projeto de Cotações em tempo real">
+          <div class="card__content">
+            <h3 class="card__title">Cotações em tempo Real</h3>
+            <p class="card__description">
+              Um site simples feito com HTML, CSS e JavaScript que exibe a cotação atual do Euro (EUR), Dólar (USD) e Bitcoin (BTC) em relação ao Real (BRL), utilizando a AwesomeAPI.
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a target="_blank" href="https://lucasnjr.github.io/biografias/index.html">
+        <div class="card">
+          <img loading="lazy" src="imagens/projeto-rocky.png" alt="Projeto de biografias">
+          <div class="card__content">
+            <h3 class="card__title">Biografias</h3>
+            <p class="card__description">
+              Este foi o meu primeiro projeto de site, dedicado às trajetórias de Sylvester Stallone e Arnold Schwarzenegger.
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>Copyright © 2025 por Lucas Neumann JR. Todos os direitos reservados.</p>
+  </footer>
+
+
+  <script src="mobile-navbar.js"></script>
+</body>
+</html>
